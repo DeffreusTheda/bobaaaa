@@ -1,10 +1,48 @@
 img {
-    width: 600px;
+    width: 500px;
+    border-radius: 25%;
+}
+
+h2 {
+    font-family: Pixeboy;
 }
 
 body {
     text-align: center;
     font-family: 'Gill Sans';
-    background-color: pink;
-    color: darkmagenta;
+    background-image: linear-gradient(to bottom, #3f4475 30%, #c2b193 80%, #db7449 95%);
+    color: hsl(263, 40%, 35%);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: blueviolet;
+}
+
+sub {
+    opacity: 0.5;
+    font-size: x-small;
+}
+
+.card {
+    /* background: #8f715f80; */
+    width: 550px;
+    margin: auto;
+    /* padding: 10px; */
+    /* border-radius: 50px; */
+    /* border: 2px double #eac05fa0; */
+
+    box-sizing: border-box;
+    border: 2px solid rgb(117, 71, 157);
+    border-radius: 20px;
+    background: linear-gradient(90.00deg, hsla(267, 20%, 75%, 0.5) 0%,hsla(270, 40%, 70%, 0.5) 100%);
+}
+
+ul {
+    margin: auto;
+    width: 300px;
+    text-align: left;
 }
